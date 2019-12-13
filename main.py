@@ -13,7 +13,9 @@ def main():
 
     print(u'Welcome to \u001b[31m BBC World News\u001b[0m ')
     print('Press Enter for next title, "R" to read the summry, "Q" to quit and "E" to exit an article')
-    print("To enter an article, press 'R' within the summary, or just Enter to go back\n\n")
+    print("To enter an article, press 'R' within the summary, or just Enter to go back")
+    print('In order to navigate back to previous articles, enter "B"')
+
     site = Website()
 
     done = False
